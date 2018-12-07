@@ -1,0 +1,12 @@
+Metrics/LineLength:
+  Max: 120
+Metrics/AbcSize:
+  Enabled: false
+MethodLength:
+  Max: 40
+Metrics/ParameterLists:
+  Enabled: false
+Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context']

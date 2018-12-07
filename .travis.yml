@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+- 2.5.1
+jobs:
+  include:
+    - stage: test
+      script: bundle exec rspec
+    - stage: format
+      script: bundle exec rake rubocop

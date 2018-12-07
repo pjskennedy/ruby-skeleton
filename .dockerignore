@@ -1,0 +1,11 @@
+Dockerfile
+.git
+.cache
+.travis.yml
+.rubocop.yml
+*.md
+*.json
+Rakefile
+.rubocop.yml
+log
+log/*
