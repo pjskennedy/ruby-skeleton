@@ -1,9 +1,11 @@
+# typed: strict
 # frozen_string_literal: true
 
 $LOAD_PATH << File.dirname(__FILE__)
 
 # Deps
 require 'logger'
+require 'sorbet-runtime'
 require 'zeitwerk'
 
 # Autoloader
