@@ -43,6 +43,7 @@ GEM
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
     unicode-display_width (2.1.0)
+    zeitwerk (2.5.4)
 
 PLATFORMS
   x86_64-linux
@@ -54,6 +55,7 @@ DEPENDENCIES
   rake
   rspec
   rubocop
+  zeitwerk
 
 BUNDLED WITH
    2.3.15
