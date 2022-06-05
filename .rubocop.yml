@@ -1,8 +1,8 @@
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 Metrics/AbcSize:
   Enabled: false
-MethodLength:
+Layout/MethodLength:
   Max: 40
 Metrics/ParameterLists:
   Enabled: false
@@ -10,3 +10,9 @@ Documentation:
   Enabled: false
 Metrics/BlockLength:
   ExcludedMethods: ['describe', 'context']
+
+# Disables:
+Layout/SpaceInsideBlockBraces: 
+  Enabled: false
+Style/StringLiterals:
+  Enabled: false

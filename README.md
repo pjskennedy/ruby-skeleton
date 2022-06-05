@@ -64,3 +64,9 @@ This project uses [Rubocop]() for formatting code. To auto-format the code in th
 ```sh
 $ bundle exec rake rubocop:auto_correct
 ```
+
+## Notes:
+
+### Sorbet LSP 
+ 
+Note that Sorbet support in VSCode requires watchman, this will need to be installed manually. 
