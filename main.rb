@@ -11,5 +11,6 @@ require 'logger'
 if $PROGRAM_NAME == __FILE__
   # Program execution goes here
 
+  puts "Finished Successfully!"
   exit 0
 end

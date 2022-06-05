@@ -1,11 +1,17 @@
-FROM ruby:2.5.1
+FROM ruby:3.1.2
 
 # Need to install CURL for Heroku logging
 RUN apt-get install curl
 
+RUN bundle config --global frozen 1
+
 WORKDIR /usr/src/app
+
 COPY Gemfile Gemfile.lock ./
-RUN bundle install --binstubs --without development test
+RUN bundle config set --local without 'development test'
+RUN bundle install
+RUN bundle binstubs --all
+
 COPY . .
 
 CMD ["bundle", "exec", "ruby", "main.rb"]
