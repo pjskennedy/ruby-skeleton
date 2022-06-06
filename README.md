@@ -17,7 +17,7 @@ rm -rf $app_path/.git
 
 #### Manually
 
-1. Install ruby however you please (This uses ruby 2.5.1)
+1. Install ruby however you please (This uses ruby 3.1.2)
 2. Install bundler
    ```sh
    $ gem install bundler
