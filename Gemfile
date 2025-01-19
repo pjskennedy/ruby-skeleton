@@ -14,6 +14,8 @@ group :test, :development do
   gem 'rake'
   gem 'rspec'
   gem 'rubocop', require: false
-  gem "tapioca", require: false
+  gem 'rubocop-rake', require: false
+  gem 'rubocop-rspec', require: false
   gem 'sorbet'
+  gem "tapioca", require: false
 end
