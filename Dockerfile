@@ -1,5 +1,4 @@
-FROM ruby:3.1.2
-
+FROM ruby:3.3.4
 # Need to install CURL for Heroku logging
 RUN apt-get install curl
 
